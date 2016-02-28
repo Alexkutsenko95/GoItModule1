@@ -3,11 +3,10 @@ package Anagramm;
 public class Anagramm {
 
 	private String inputString;
-	private String anagramm;
+	
 
 	public Anagramm(String inputString) {
 		this.inputString = inputString;
-		this.anagramm = anagramm;
 	}
 
 	public String getInputString() {
@@ -35,11 +34,6 @@ public class Anagramm {
 
 		return result.toString();
 
-	}
-
-
-	public void setAnagram(String anagramm) {
-		this.anagramm = anagramm;
 	}
 
 	

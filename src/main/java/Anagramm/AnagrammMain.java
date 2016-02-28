@@ -8,6 +8,7 @@ public class AnagrammMain {
 		System.out.print("Введите строку:");
 		Scanner sc = new Scanner(System.in);		
 		String inputString = sc.nextLine();
+		sc.close();
 		Anagramm anagramm = new Anagramm(inputString);
 		anagramm.showString();
 		anagramm.showAnagramm();
