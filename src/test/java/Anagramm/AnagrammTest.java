@@ -28,7 +28,7 @@ public class AnagrammTest {
 	public void anagramm() {
 		
 	    String actual = anagramm.getAnagrammString();
-		String expected = "!dlrow olleH";
+		String expected = "olleH !dlrow";
 		assertEquals(expected , actual);
 		}
 			
