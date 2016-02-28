@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AnagrammMain {
 
 	public static void main(String[] args) {
-		System.out.print("Введите строку:");
+		System.out.print("Enter string:");
 		Scanner sc = new Scanner(System.in);		
 		String inputString = sc.nextLine();
 		sc.close();
